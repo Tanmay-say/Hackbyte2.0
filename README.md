@@ -1,6 +1,6 @@
 # Hackbyte2.0
-
-## Virtual Steering Wheel Extension
+## Game Stimulex
+### (Virtual Steering Wheel Extension)
 
 The Virtual Steering Wheel Extension project aims to revolutionize the gaming experience by enabling users to control the steering wheel of vehicles in racing games using hand gestures captured by a webcam. This README file provides an overview of the project, including its purpose, technologies used, system design, deployment, and testing.
 

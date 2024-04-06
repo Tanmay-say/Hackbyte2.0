@@ -1,0 +1,1 @@
+taipy  # Adjust the version number as needed

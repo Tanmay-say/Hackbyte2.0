@@ -1,0 +1,11 @@
+    A(Start) --> B(Initialize Webcam)
+    B --> C(Capture Frame)
+    C --> D(Process Frame with OpenCV)
+    D --> E(Hand Gesture Recognition with MediaPipe)
+    E --> F(Translate Gestures to Commands)
+    F --> G(Send Commands to Game)
+    G --> H(Update Game State)
+    H --> I(Render Updated Game State)
+    I --> J{Check for Game Over/Continue}
+    J -->|Game Over| K(End)
+    J -->|Continue| C

@@ -24,6 +24,7 @@ The system design encompasses various elements, including workflow diagrams, UML
 ### Flowchart
 
 ```mermaid
+graph TD
     A(Start) --> B(Initialize Webcam)
     B --> C(Capture Frame)
     C --> D(Process Frame with OpenCV)

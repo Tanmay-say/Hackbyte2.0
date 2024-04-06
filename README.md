@@ -21,6 +21,22 @@ The project utilizes the following technologies and libraries:
 
 The system design encompasses various elements, including workflow diagrams, UML diagrams (activity, state, use case, and sequence diagrams), and technical specifications. These design elements provide a comprehensive understanding of the project's architecture, functionality, and interactions.
 
+### Flowchart
+
+'''mermaid
+    A(Start) --> B(Initialize Webcam)
+    B --> C(Capture Frame)
+    C --> D(Process Frame with OpenCV)
+    D --> E(Hand Gesture Recognition with MediaPipe)
+    E --> F(Translate Gestures to Commands)
+    F --> G(Send Commands to Game)
+    G --> H(Update Game State)
+    H --> I(Render Updated Game State)
+    I --> J{Check for Game Over/Continue}
+    J -->|Game Over| K(End)
+    J -->|Continue| C
+    '''
+
 ### Deployment and Testing
 
 Deployment involves ensuring compatibility with different operating systems and gaming environments. The software testing process employs both white box and black box testing methodologies to verify functionality and performance across various scenarios. Thorough testing ensures the extension operates seamlessly and delivers an immersive gaming experience to users.

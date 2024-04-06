@@ -2,7 +2,7 @@
 from taipy import Gui
 
 # Define the path or URL to your .exe file
-exe_file_url = "vsw11.exe"
+exe_file_url = "#"
 
 # Define the GUI layout with a login button, centered content, and a download button
 gui = Gui()

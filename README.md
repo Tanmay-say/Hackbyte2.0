@@ -23,7 +23,7 @@ The system design encompasses various elements, including workflow diagrams, UML
 
 ### Flowchart
 
-'''mermaid
+```mermaid
     A(Start) --> B(Initialize Webcam)
     B --> C(Capture Frame)
     C --> D(Process Frame with OpenCV)
@@ -35,7 +35,8 @@ The system design encompasses various elements, including workflow diagrams, UML
     I --> J{Check for Game Over/Continue}
     J -->|Game Over| K(End)
     J -->|Continue| C
-    '''
+
+```
 
 ### Deployment and Testing
 
